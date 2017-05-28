@@ -1,2 +1,4 @@
-# goosi
-Ruby toolkit for Google Assistant API
+# Goosi
+
+Goosi = [Goo]gle As[si]stant.  
+Goosi is a ruby toolkit for Google Assistant API.

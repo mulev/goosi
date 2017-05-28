@@ -1,0 +1,85 @@
+{
+  "user": {
+    "userId": "100500",
+    "profile": {
+      "displayName": "Test",
+      "givenName": "Test",
+      "familyName": "Test"
+    },
+    "accessToken": "string",
+    "permissions": [
+      "NAME",
+      "DEVICE_PRECISE_LOCATION",
+      "DEVICE_COARSE_LOCATION"
+    ]
+  },
+  "device": {
+    "location": {
+      "coordinates": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "formattedAddress": "string",
+      "zipCode": "string",
+      "city": "string",
+      "postalAddress": {
+        "revision": 0,
+        "regionCode": "string",
+        "languageCode": "string",
+        "postalCode": "string",
+        "sortingCode": "string",
+        "administrativeArea": "string",
+        "locality": "string",
+        "sublocality": "string",
+        "addressLines": [
+          "string"
+        ],
+        "recipients": [
+          "string"
+        ],
+        "organization": "string"
+      },
+      "name": "string",
+      "phoneNumber": "string",
+      "notes": "string"
+    }
+  },
+  "surface": {
+    "capabilities": [
+      {
+        "name": "string"
+      },
+      {
+        "name": "string"
+      }
+    ]
+  },
+  "conversation": {
+    "conversationId": "string",
+    "type": "NEW",
+    "conversationToken": "string"
+  },
+  "inputs": [
+    {
+      "rawInputs": [
+        {
+          "createTime": "2014-10-12T15:01:23.045123456Z",
+          "inputType": "VOICE",
+          "query": "string"
+        }
+      ],
+      "intent": "string"
+    },
+    {
+      "rawInputs": [
+        {
+          "createTime": "2014-10-03T15:01:23.045123456Z",
+          "inputType": "VOICE",
+          "query": "string"
+        }
+      ],
+      "intent": "string"
+    }
+  ],
+  "isInSandbox": false
+}
