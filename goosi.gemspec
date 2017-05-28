@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'bundler', '~> 1.7'
+  spec.add_runtime_dependency 'bundler', '>= 1.6.0'
   spec.add_runtime_dependency 'rake', '~> 12.0'
   spec.add_runtime_dependency 'oj', '~> 3.0'
   spec.add_development_dependency 'minitest', '~> 5.10', '>= 5.10.2'
